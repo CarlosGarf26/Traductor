@@ -1,25 +1,28 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gemini Form Transcriber</title>
+    <title>Gestor de Documentos Inteligente | COMEXA</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-      /* For a custom scrollbar to match the dark theme */
+      /* Professional scrollbar */
       ::-webkit-scrollbar {
         width: 8px;
+        height: 8px;
       }
       ::-webkit-scrollbar-track {
-        background: #1e293b;
+        background: #0f172a; 
       }
       ::-webkit-scrollbar-thumb {
-        background: #475569;
+        background: #334155;
         border-radius: 4px;
       }
       ::-webkit-scrollbar-thumb:hover {
-        background: #64748b;
+        background: #475569;
+      }
+      body {
+        background-color: #020617; /* Slate 950 */
       }
     </style>
   <script type="importmap">
@@ -33,7 +36,7 @@
 }
 </script>
 </head>
-  <body class="bg-slate-900 text-slate-200">
+  <body class="bg-slate-950 text-slate-200 antialiased">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
   </body>

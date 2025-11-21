@@ -1,5 +1,5 @@
 {
-  "name": "Transcriptor de Formularios Gemini",
-  "description": "Una aplicación que permite a los usuarios subir una imagen o PDF de un formulario y utiliza Gemini para transcribir el texto.",
+  "name": "COMEXA Doc Manager",
+  "description": "Herramienta interna para procesamiento de documentos digitales.",
   "requestFramePermissions": []
 }
