@@ -1,5 +1,5 @@
 {
-  "name": "gemini-form-transcriber",
+  "name": "transcriptor-de-formularios-gemini",
   "private": true,
   "version": "0.0.0",
   "type": "module",

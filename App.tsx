@@ -30,7 +30,7 @@ const App: React.FC = () => {
 
   const handleAnalysis = useCallback(async () => {
     if (!imageFile) {
-      setError('Please upload a file first.');
+      setError('Por favor, sube un archivo primero.');
       return;
     }
 
@@ -40,12 +40,13 @@ const App: React.FC = () => {
 
     try {
       const base64Image = await fileToBase64(imageFile);
-      const prompt = "Me puedes transcribir lo que esta en el mismo";
+      // Updated prompt to be more descriptive and handle forms better
+      const prompt = "Transcribe el contenido de este documento. Si es un formulario, trata de mantener la estructura utilizando formato Markdown.";
       const result = await analyzeImage(base64Image, imageFile.type, prompt);
       setTranscription(result);
     } catch (err) {
       console.error('Analysis failed:', err);
-      setError('Failed to analyze the file. Please check the console for more details.');
+      setError('No se pudo analizar el archivo. Revisa la consola para más detalles.');
     } finally {
       setIsLoading(false);
     }

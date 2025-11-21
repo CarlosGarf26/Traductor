@@ -34,11 +34,11 @@ export const FileUploader: React.FC<FileUploaderProps> = ({ onFileChange, disabl
           )}
           <p className="mt-2 text-sm text-slate-400">
             <span className="font-semibold text-indigo-400">
-              {imageSelected ? 'Change file' : 'Upload a file'}
+              {imageSelected ? 'Cambiar archivo' : 'Subir archivo'}
             </span>
-            {' '}or drag and drop
+            {' '}o arrastra y suelta
           </p>
-          <p className="text-xs text-slate-500">PDF, PNG, JPG, GIF up to 10MB</p>
+          <p className="text-xs text-slate-500">PDF, PNG, JPG, GIF hasta 10MB</p>
         </div>
       </div>
       <input 

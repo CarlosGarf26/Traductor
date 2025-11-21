@@ -1,5 +1,5 @@
 {
-  "name": "Gemini Form Transcriber",
-  "description": "An application that allows users to upload an image of a form and uses Gemini to transcribe the text within it.",
+  "name": "Transcriptor de Formularios Gemini",
+  "description": "Una aplicación que permite a los usuarios subir una imagen o PDF de un formulario y utiliza Gemini para transcribir el texto.",
   "requestFramePermissions": []
 }
