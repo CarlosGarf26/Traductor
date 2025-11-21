@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+<img width="1200" height="475" alt="GHBanner" src="https://www.google.com/search?sca_esv=007fec2c58953282&rlz=1C1ONGR_esMX1165MX1165&sxsrf=AE3TifM60ISYlbAIDFiGKZzrezh2tkJ-hw:1763734106291&udm=2&fbs=AIIjpHx4nJjfGojPVHhEACUHPiMQcG_77B-hmbxHGSx0Fwu3oUGVAxkUj6FedW1OxjKWbuqNTMRHwwejzGSJHcI45oBS_SFUV1KTTgT-RGtsePMvelQSPzOwPhB3HaOPsnrfjGvoeFTnQ0V0bzTVmBQQG7h9j3fFX14syXuqNGMr8qZWEO72jTYLlVn1Q6Zol16HQHByEDFKPBJE9FEubZhzTGUZhYVhSWjNWSj9hjqdFU8S-3MzmVc&q=comexa&sa=X&ved=2ahUKEwj_2ojHtYORAxUDKEQIHUmoIz4QtKgLegQIExAB&biw=1920&bih=911&dpr=1#vhid=vmDLVCyUUuAKQM&vssid=mosaic" />
 </div>
 
 # Run and deploy your AI Studio app
