@@ -30,7 +30,7 @@ const App: React.FC = () => {
 
   const handleAnalysis = useCallback(async () => {
     if (!imageFile) {
-      setError('Please upload an image first.');
+      setError('Please upload a file first.');
       return;
     }
 
@@ -45,7 +45,7 @@ const App: React.FC = () => {
       setTranscription(result);
     } catch (err) {
       console.error('Analysis failed:', err);
-      setError('Failed to analyze the image. Please check the console for more details.');
+      setError('Failed to analyze the file. Please check the console for more details.');
     } finally {
       setIsLoading(false);
     }
@@ -72,7 +72,11 @@ const App: React.FC = () => {
             {/* Left Column: Uploader and Preview */}
             <div className="flex flex-col gap-6 p-6 bg-slate-800 rounded-xl shadow-lg border border-slate-700">
               <FileUploader onFileChange={handleFileChange} disabled={isLoading} imageSelected={!!imageFile} />
-              <ImagePreview imageUrl={imageUrl} onClear={resetState} />
+              <ImagePreview 
+                imageUrl={imageUrl} 
+                mimeType={imageFile?.type} 
+                onClear={resetState} 
+              />
               <AnalyzeButton 
                 onClick={handleAnalysis} 
                 isLoading={isLoading} 

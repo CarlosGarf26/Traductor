@@ -7,7 +7,7 @@ export const Header: React.FC = () => (
       Gemini Form Transcriber
     </h1>
     <p className="mt-3 text-lg text-slate-400 max-w-2xl mx-auto">
-      Upload an image of a form, and let Gemini's powerful vision model transcribe the contents for you.
+      Upload an image or PDF of a form, and let Gemini's powerful multimodal model transcribe the contents for you.
     </p>
   </header>
 );
